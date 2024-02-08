@@ -1,0 +1,23 @@
+
+
+/* NavBar Kid item css */
+.p-menubar .p-menubar-root-list > .p-menuitem > .p-menuitem-content .p-menuitem-link {
+    padding: 0.75rem 1.25rem;
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+/* Search İnput Css */
+
+.p-inputtext {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 25rem;
+    margin-right: 10rem;
+}
+.p-menubar-end {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+  }
