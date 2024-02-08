@@ -27,7 +27,6 @@ export default function TemplateDemo() {
             items: [
                 {
                     label: 'Clothes',
-                    
                 },
                 {
                     label: 'Shoes',
@@ -79,11 +78,18 @@ export default function TemplateDemo() {
 
     return (
         <div className="card">
-            <Menubar start={start} end={end} />
-            <Menubar model={items} />
+            <div className="flex justify-center">
+                <Menubar start={start} end={end} />
+            </div>
+            <div className="second-menubar">
+                <Menubar className='second-menubar-content' model={items} />
+            </div>
         </div>
     )
 }
+
+
+
 
 
         
